@@ -563,15 +563,15 @@ def run_experiment(
 if __name__ == "__main__":
     mode = ("anp_auto")
     map_name = "MMM"
-    seed = 15
-    total_episodes = 4000
+    seed = 42
+    total_episodes = 4500
     explore_stop = 1000
 
     pulse_start_pct = 0.500
     pulse_duration_pct = 0.083
 
-    auto_threshold = 0.053
-    auto_borderline = 2000
+    auto_threshold = 0.099
+    auto_borderline = 3000
     auto_pulse_duration = 200
     pulse_max_count = 1
     phi = 1.5  # >1.0 front-loads perturbation decay & delays anchor release shock

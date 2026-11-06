@@ -563,14 +563,14 @@ def run_experiment(
 if __name__ == "__main__":
     mode = ("anp_auto")
     map_name = "MMM"
-    seed = 42
+    seed = 36
     total_episodes = 4500
     explore_stop = 1000
 
     pulse_start_pct = 0.500
     pulse_duration_pct = 0.083
 
-    auto_threshold = 0.099
+    auto_threshold = 0.094
     auto_borderline = 3000
     auto_pulse_duration = 200
     pulse_max_count = 1
